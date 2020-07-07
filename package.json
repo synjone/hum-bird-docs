@@ -1,0 +1,21 @@
+{
+  "name": "docs",
+  "version": "1.0.0",
+  "description": "文档",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "init-book": "docsify init book",
+    "serve": "docsify serve book"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://gitlab.xzxyun.com/campus/hbird/docs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "docsify-cli": "^4.4.1"
+  }
+}
