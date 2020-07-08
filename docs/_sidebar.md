@@ -1,7 +1,2 @@
 * [蜂鸟系统](/)
-* [技术架构](framework.md)
-    * [cli辅助](framework-ui.md)
-    * [UI仓库](framework-ui.md)
-    * [编辑器](framework-ui.md)
-    * [全栈技术](service.md)
-    * [用户系统](user-sys.md)
+* [用户系统](framework/user-sys.md)
