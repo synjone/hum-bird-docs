@@ -19,7 +19,7 @@
 ### 自定义组件库开发组件流程
 > 示例 hbInput 组件  main.vue(组件代码如下)
 
-```
+```vue
 <template >
   <el-input
     ref="hb_input"
@@ -101,14 +101,14 @@ export default {
 
 ```json
 {
-    "name": "输入框",                                      //组件中文名称 (必填)
-    "componentName": "hb-input",                          //此处组件名称要和代码中 name:字段的名称一致(必填)
-    "data": {},                                           //固定 写法 data:{}  (必填,可以为空对象)
+    "name": "输入框",                                      //组件中文名称 (必填!!!)
+    "componentName": "hb-input",                          //此处组件名称要和代码中 name:字段的名称一致(必填!!!)
+    "data": {},                                           //固定 写法 data:{}  (必填,可以为空对象!!!)
     "parent":"form",                                      //表示此组件属于表单系列,也可以不写,如果不写在编辑器中组件顺序会有影响
-	  "options": {                                        //options代表编辑器中右侧配置栏,你所创造的组件可配置的开放属性 (必填,可以为空对象)
+    "options": {                                          //options代表编辑器中右侧配置栏,你所创造的组件可配置的开放属性 (必填,可以为空对象!!!)
       "content": {                                        //自定义配置字段,name:属性代表,配置栏中介绍此属性的中文名称
-        "name": "内容",                            
-        "type": "input"				//type:属性代表,你想用户用什么方式输入内容,或者改变内容,目前(提功了 'input','switch') 两种,后续会迭代增加 'select' 等等 
+        "name": "内容",
+        "type": "input"                                   //type:属性代表,你想用户用什么方式输入内容,或者改变内容,目前(提功了 'input','switch') 两种,后续会迭代增加 'select' 等等 
       },
       "placeholder": {
         "name": "提示内容", 
