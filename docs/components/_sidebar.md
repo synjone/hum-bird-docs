@@ -9,7 +9,7 @@
     * [number 数值输入框](components/input-number.md)
     * [textarea 多行输入框](components/input-textarea.md)
     * [card 身份证输入框](components/input-card.md)
-* [form 表单组件](/components/input.md)
+* [form 表单组件](/components/form.md)
 * [select 选择器](/components/input.md)
 * [grid 布局组件](/components/input.md)
 * [radio 单选按钮](/components/input.md)
