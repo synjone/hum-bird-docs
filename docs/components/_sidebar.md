@@ -11,11 +11,13 @@
     * [card 身份证输入框](components/input-card.md)
 * [form 表单组件](/components/form.md)
 * [select 选择器](/components/select.md)
-* [grid 布局组件](/components/input.md)
-* [radio 单选按钮](/components/input.md)
-* [switch 滑块](/components/input.md)
-* [button 按钮](/components/input.md)
-* [text 文本](/components/input.md)
+    * [select 普通选择器](/components/select-select.md) 
+    * [select 日期选择器](/components/select-date.md) 
+* [grid 布局组件](/components/grid.md)
+* [radio 单选按钮](/components/radio.md)
+* [switch 滑块](/components/switch.md)
+* [button 按钮](/components/button.md)
+* [text 文本](/components/text.md)
 
 
 
