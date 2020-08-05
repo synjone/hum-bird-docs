@@ -16,6 +16,8 @@
 * [switch 滑块](/components/input.md)
 * [button 按钮](/components/input.md)
 * [text 文本](/components/input.md)
+* [image 图片展示](/components/image.md)
+* [upload-img 图片上传](/components/upload-img.md)
 
 
 
