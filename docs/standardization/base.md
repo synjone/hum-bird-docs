@@ -22,7 +22,8 @@
 
 #### 三、安装 蜂鸟表单编辑器
 
-#### 补充说明： `vue`新项目中是没有`lib`这个文件夹的,这个文件需要在此网址下载，网址：
+#### 补充说明：`vue`新项目中是没有`lib`这个文件夹的,这个文件需要在此网址下载
+网址：` https://worksite.coding.net/s/a43a8a5d-1bdf-41cc-bf26-258097bbec80 `
 
 ![image](https://upload-images.jianshu.io/upload_images/9995156-6c5989fe2167127d.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
