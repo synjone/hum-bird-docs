@@ -25,24 +25,27 @@
 #### 补充说明：`vue`新项目中是没有`lib`这个文件夹的,这个文件需要在此网址下载
 网址：` https://worksite.coding.net/s/a43a8a5d-1bdf-41cc-bf26-258097bbec80 `
 
-![image](https://upload-images.jianshu.io/upload_images/9995156-6c5989fe2167127d.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![avatar](../img/formmaking/1.png)
 
 
 #### 引入 蜂鸟系统
 ###### 完整引入
+![avatar](../img/formmaking/2.png)
 ``` 
-import FormMaking from '~/lib/form-making-advanced'
-import '~/lib/form-making-advanced/dist/FormMaking.css'
-Vue.use(FormMaking)
+import hbform from '../lib/'
+import '../lib/dist/hbird.css'
+
+Vue.use(hbform)
 ```
+
 
 ###### 引入部分组件
 ```
 import {
   GenerateForm,
   MakingForm
-} from '~/lib/form-making-advanced'
-import '~/lib/form-making-advanced/dist/FormMaking.css'
+} from '../lib/'
+import '../lib/dist/hbird.css'
 Vue.component(GenerateForm.name, GenerateForm)
 Vue.component(MakingForm.name, MakingForm)
 /* 或写为
