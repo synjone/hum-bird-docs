@@ -1,6 +1,6 @@
 * 开发指南
-    * [安装](/components/install.md)
-    * [快速上手](/components/quick-start.md)
+    * [安装](/)
+    * [快速上手](/)
 
 * [input 输入框](/components/input.md)
     * [input 普通输入框](components/input-input.md)
