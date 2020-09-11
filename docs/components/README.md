@@ -1,6 +1,12 @@
 # 组件
+<span id='组件'></span>
+
+
+<span id='表单设计器'></span>
 
 ## 表单设计器 （MakingForm）
+
+<span id='代码演示'></span>
 
 ### 代码演示
 
@@ -18,11 +24,9 @@
   </fm-making-form>
 </template>
 ```
-
 *使用时需要设置设计器的高度，默认情况高度是根据父元素 100% 来渲染*
 
 #### 自定义操作按钮
-
 ```
 <template>
   <fm-making-form 
@@ -74,6 +78,8 @@ const json = this.$refs.makingform.getJSON()
 ```
 
 ### API
+<span id='API'></span>
+
 
 #### Props
 
@@ -147,7 +153,11 @@ const json = this.$refs.makingform.getJSON()
 | tabs | 标签页 |
 | divider | 分割线 |
 
+<span id='表单生成器'></span>
+
 ## 表单生成器 （GenerateForm）
+
+<span id='代码演示2'></span>
 
 ### 代码演示
 
@@ -259,7 +269,7 @@ export default {
 
 ```
 
-### API
+### API2
 
 #### Props
 
