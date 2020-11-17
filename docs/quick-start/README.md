@@ -9,7 +9,7 @@
 
 <span id='页面介绍'></span>
 
-![image](https://upload-images.jianshu.io/upload_images/9995156-03d2bd92d0799fb1.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![image](../img/9995156-03d2bd92d0799fb1.png)
 
 ## 数据绑定
 
@@ -17,11 +17,11 @@
 
 通过配置【字段标识】来绑定数据。
 
-![image](https://upload-images.jianshu.io/upload_images/9995156-fdb36b2b66e58347.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![image](../img/9995156-fdb36b2b66e58347.png)
 
 如果不想为字段绑定数据，可以在【操作属性】中取消【数据绑定】的选中
 
-![image](https://upload-images.jianshu.io/upload_images/9995156-fe03a3531b41bdce.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![image](../img/9995156-fe03a3531b41bdce.png)
 
 ## 生成JSON
 
@@ -43,7 +43,7 @@
 
 <span id='生成代码'></span>
 
-![image](https://upload-images.jianshu.io/upload_images/9995156-15bc4d12905ed9af.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![image](../img/9995156-15bc4d12905ed9af.png)
 
 【生成代码】直接可以生成可以运行的 html 代码，直接复制到 `.html` 即可查看效果；如果需要在 Vue 组件中使用，请切换到【Vue组件】标签查看
 
@@ -60,13 +60,13 @@
 
 <span id='多列布局'></span>
 
-![image](https://upload-images.jianshu.io/upload_images/9995156-918d60c04887585e.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![image](../img/9995156-918d60c04887585e.png)
 
 ### 嵌套布局
 
 <span id='嵌套布局'></span>
 
-![image](https://upload-images.jianshu.io/upload_images/9995156-a839e6b64266ff16.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![image](../img/9995156-a839e6b64266ff16.png)
 
 ### 更多复杂布局
 
@@ -82,11 +82,11 @@
 
 *   表单属性【自定义Class】中填写自定义样式类名
 
-![image](https://upload-images.jianshu.io/upload_images/9995156-3c330111c9fba69b.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![image](../img/9995156-3c330111c9fba69b.png)
 
 表单渲染时会在生成  `<form/>`  标签中加入 class
 
-![image](https://upload-images.jianshu.io/upload_images/9995156-e80e8a3f7aaa14ee.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![image](../img/9995156-e80e8a3f7aaa14ee.png)
 
 *   全局或者局部定义样式，实现表单样式的自定义
 
@@ -99,13 +99,13 @@
 
 ```
 
-![image](https://upload-images.jianshu.io/upload_images/9995156-b3915a961d75fc8f.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![image](../img/9995156-b3915a961d75fc8f.png)
 
 ## 字段样式自定义
 
 *   在【字段属性】配置中定义样式类名 【自定义Class】： `form-item-custom`
 
-![image](https://upload-images.jianshu.io/upload_images/9995156-065ae5fc2db7b0b0.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![image](../img/9995156-065ae5fc2db7b0b0.png)
 
 *   全局或者局部定义样式，实现字段样式的自定义
 
@@ -115,7 +115,7 @@
 }
 ```
 
-![image](https://upload-images.jianshu.io/upload_images/9995156-ca1f272b7d60cbe4.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![image](../9995156-ca1f272b7d60cbe4.png)
 
 # 自定义区域
 
@@ -127,13 +127,13 @@
 
 1.  拖拽【自定义区域】放入编辑区域
 
-![image](https://upload-images.jianshu.io/upload_images/9995156-bbf9a841d6c7ee23.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![image](../img/9995156-bbf9a841d6c7ee23.png)
 
 2.  根据你需要放入到该区域的字段选择类型
 
 3.  点击【生成代码】可快速查看，通过编码方式放入自己的组件
 
-![image](https://upload-images.jianshu.io/upload_images/9995156-58d7c25193a859d7.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![image](../img/9995156-58d7c25193a859d7.png)
 
 ``` 
 <!-- 添加如下代码 -->
@@ -150,13 +150,13 @@
 
 4.  完成引入，预览一下查看效果
 
-![image](https://upload-images.jianshu.io/upload_images/9995156-a4fc58393a34dccc.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![image](../img/9995156-a4fc58393a34dccc.png)
 
 ## 引入静态内容
 
 静态内容即不用绑定数据的内容，在【操作属性】中去掉【数据绑定】选择。
 
-![image](https://upload-images.jianshu.io/upload_images/9995156-1359d110553a13ea.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![image](../img/9995156-1359d110553a13ea.png)
 
 1.  拖拽自定义区域字段到编辑区，去掉【数据绑定】勾选。
 
@@ -179,7 +179,7 @@
 
 3.  预览查看效果
 
-![image](https://upload-images.jianshu.io/upload_images/9995156-0de8ac5e7589f922.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![image](../img/9995156-0de8ac5e7589f922.png)
 
 4.  获取数据将不会获取到自定义静态区域的数据
 
@@ -194,15 +194,15 @@
 
 在设计器中可以自己配置自定义的组件。
 
-![image](https://upload-images.jianshu.io/upload_images/9995156-34bea5d507d7e271.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![image](../img/9995156-34bea5d507d7e271.png)
 
 ## 静态内容
 
 即不绑定表单数据，可以自定义一些表单中的静态元素。
 
-![image](https://upload-images.jianshu.io/upload_images/9995156-f42a12963c3de22a.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![image](../img/9995156-f42a12963c3de22a.png)
 
-![image](https://upload-images.jianshu.io/upload_images/9995156-91d172085ca5f6b0.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![image](../img/9995156-91d172085ca5f6b0.png)
 
 ## 绑定数据
 
@@ -221,7 +221,7 @@
 
 1.  设置远端数据获取方法名，选项值（用于选择项真实获取的值），选项标签（用于选项展示的值）
 
-![image](https://upload-images.jianshu.io/upload_images/9995156-e4608d22547f3789.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![image](../img/9995156-e4608d22547f3789.png)
 
 2.  调用 `fm-generate-form` 渲染组件，使用设计器中设置好的方法获取数据
 
@@ -260,13 +260,13 @@ remoteFuncs: {
 
 3.  查看效果
 
-![image](https://upload-images.jianshu.io/upload_images/9995156-da38545e46479943.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![image](../img/9995156-da38545e46479943.png)
 
 
 
 # 文件或图片上传
 
-![image](https://upload-images.jianshu.io/upload_images/9995156-1bdc34c7988f16f1.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![image](../img/9995156-1bdc34c7988f16f1.png)
 
 ## 服务器上传
 
@@ -281,11 +281,11 @@ remoteFuncs: {
 
 ## 七牛云上传
 
-![image](https://upload-images.jianshu.io/upload_images/9995156-f5f0578a6f65ee37.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![image](../img/9995156-f5f0578a6f65ee37.png)
 
 如果使用的是七牛云上传图片，如上图配置好参数，点击【生成代码】来快速查看编辑位置
 
-![image](https://upload-images.jianshu.io/upload_images/9995156-8b08c8a8f5418426.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![image](../img/9995156-8b08c8a8f5418426.png)
 
 ```
 funcGetToken (resolve) {
@@ -307,15 +307,15 @@ funcGetToken (resolve) {
 
 2.  然后将需要配置的列拖入到子表单中
 
-![image](https://upload-images.jianshu.io/upload_images/9995156-9df82409b7ee097c.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![image](../img/9995156-9df82409b7ee097c.png)
 
 3.  【预览】，点击【添加】，填入数据
 
-![image](https://upload-images.jianshu.io/upload_images/9995156-ec903deeca9f4c31.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![image](../img/9995156-ec903deeca9f4c31.png)
 
 4.  获取数据
 
-![image](https://upload-images.jianshu.io/upload_images/9995156-36470a9bc43000e8.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![image](../img/9995156-36470a9bc43000e8.png)
 
 
 
@@ -325,17 +325,17 @@ funcGetToken (resolve) {
 
 ## 基础使用
 
-![image](https://upload-images.jianshu.io/upload_images/9995156-165892c1ca243b7c.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![image](../img/9995156-165892c1ca243b7c.png)
 
 ## 表格样式
 
 可以通过栅格布局和自定义样式来配合使用完成表格边框的创建，设计器中内置了`border-form`样式快速实现效果。
 
-![image](https://upload-images.jianshu.io/upload_images/9995156-15cea770ba5744c2.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![image](../img/9995156-15cea770ba5744c2.png)
 
 预览查看效果：
 
-![image](https://upload-images.jianshu.io/upload_images/9995156-ed18da0e7fedab68.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![image](../img/9995156-ed18da0e7fedab68.png)
 
 
 
@@ -345,7 +345,7 @@ funcGetToken (resolve) {
 
 可以在设计器左侧配置自己的组件进行操作。
 
-![image](https://upload-images.jianshu.io/upload_images/9995156-55a5f4e235e48636.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![image](../img/9995156-55a5f4e235e48636.png)
 
 ## 自定义字段自定义组件
 
